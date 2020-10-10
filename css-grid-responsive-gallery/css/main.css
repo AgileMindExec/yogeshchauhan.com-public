@@ -1,0 +1,29 @@
+.responsive_gallery {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-auto-rows: minmax(25vh, 200px);
+}
+
+.responsive_gallery li:nth-of-type(2n + 2) {
+  grid-row: span 2;
+}
+
+body {
+  margin: 0;
+}
+
+ul,
+li {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+li {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*# sourceMappingURL=main.css.map */
