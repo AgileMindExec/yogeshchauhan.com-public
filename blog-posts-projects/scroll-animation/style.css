@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+body {
+  font-family: 'Work Sans', sans-serif;
+}
+
+img {
+  width     : 500px;
+  height    : 200px;
+  object-fit: cover;
+  visibility: hidden;
+}
+
+.slideUp {
+  animation-name    : slideUp;
+  animation-duration: 1s;
+  visibility        : visible;
+}
+
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
