@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotating Texts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <label for="cdate">Choose a date:</label>
+    <input type="date" id="cdate" name="cdate" value="2021-03-22" min="2021-03-10" max="2030-12-31">
+
+    <label for="ctime">Choose a time:</label>
+    <input type="time" id="ctime" name="ctime" value="09:00" required>
+
+    <p id="showCountdown"><b>Countdown:</b> </p>
+
+    <button onclick=startCountdown()>Start Countdown</button>
+
+    <br>
+    <br>
+
+    <p>This fiddle is a part of a <a
+            href="https://www.yogeshchauhan.com/how-to-create-a-dynamic-countdown-using-html-and-javascript/"
+            target="_blank">Blog Post on YogeshChauhan.com</a></p>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

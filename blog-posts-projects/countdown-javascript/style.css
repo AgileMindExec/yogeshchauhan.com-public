@@ -1,0 +1,9 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align : center;
+}
+
+#showCountdown {
+  font-size     : 20px;
+  text-transform: uppercase;
+}
