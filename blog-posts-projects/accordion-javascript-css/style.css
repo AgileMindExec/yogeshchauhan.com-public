@@ -1,0 +1,34 @@
+.accordion {
+  color      : #212529;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.acc {
+  background-color: white;
+  border          : 1px solid #dee2e6;
+  color           : #444;
+  cursor          : pointer;
+  padding         : 10px;
+  width           : 100%;
+  text-align      : left;
+  outline         : none;
+  font-size       : 15px;
+  transition      : 0.4s;
+  margin-top      : -1px;
+}
+
+.acc-contents {
+  padding         : 0 10px;
+  display         : block;
+  background-color: white;
+  overflow        : hidden;
+  transition      : all 250ms ease-out;
+  opacity         : 0;
+  height          : 0;
+  border-left     : 1px solid #dee2e6;
+  border-right    : 1px solid #dee2e6;
+}
+
+.accordion>.acc-contents:last-child {
+  border-bottom: 1px solid #dee2e6;
+}
