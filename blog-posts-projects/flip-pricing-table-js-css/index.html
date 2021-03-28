@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flip Pricing Table Example YogeshChauhan.com</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <form class="yc-form">
+        <input type="radio" id="r-monthly" name="yc-form-switch" value="monthly" onclick="flip()" checked />
+        <label for="r-monthly">Monthly</label>
+        <input type="radio" id="r-yearly" name="yc-form-switch" value="yearly" onclick="flip()" />
+        <label for="r-yearly">Yearly</label>
+    </form>
+
+    <div class="table">
+        <div class="column column-1">
+            <div class="column-front">
+                <h2>Basic Monthly</h2>
+                <p>$5.99/mo</p>
+                <p>Single User</p>
+            </div>
+            <div class="column-back">
+                <h2>Basic Yearly</h2>
+                <p>$59.99/year</p>
+                <p>Single User</p>
+            </div>
+        </div>
+
+        <div class="column column-2">
+            <div class="column-front">
+                <h2>Premium Monthly</h2>
+                <p>$9.99/mo</p>
+                <p>Up to 5 Users</p>
+            </div>
+            <div class="column-back">
+                <h2>Premium Yearly</h2>
+                <p>$99.99/year</p>
+                <p>Up to 5 Users</p>
+            </div>
+        </div>
+
+        <div class="column column-3">
+            <div class="column-front">
+                <h2>Business Monthly</h2>
+                <p>$14.99/mo</p>
+                <p>Unlimited Users</p>
+            </div>
+            <div class="column-back">
+                <h2>Business Yearly</h2>
+                <p>$149.99/year</p>
+                <p>Unlimited Users</p>
+            </div>
+        </div>
+    </div>
+
+
+    <br>
+    <br>
+
+    This fiddle is a part of a <a
+        href="https://www.yogeshchauhan.com/how-to-create-a-flip-pricing-table-using-css-and-javascript/"
+        target="_blank">Blog
+        Post on
+        YogeshChauhan.com</a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
