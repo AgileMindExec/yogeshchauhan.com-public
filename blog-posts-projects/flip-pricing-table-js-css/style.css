@@ -1,0 +1,103 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* switch */
+
+.yc-form {
+  display        : flex;
+  margin         : 20px;
+  padding        : 10px;
+  max-width      : 900px;
+  justify-content: center;
+}
+
+.yc-form input {
+  position: absolute !important;
+  clip    : rect(0, 0, 0, 0);
+  height  : 1px;
+  width   : 1px;
+}
+
+.yc-form label {
+  font-size : 1em;
+  text-align: center;
+  padding   : 0.5em 2em;
+  border    : 2px solid grey;
+}
+
+.yc-form label:hover {
+  cursor: pointer;
+}
+
+.yc-form input#r-monthly:checked+label {
+  background-color: grey;
+  color           : white;
+}
+
+.yc-form input#r-yearly:checked+label {
+  background-color: grey;
+  color           : white;
+}
+
+.yc-form label:first-of-type {
+  border-radius: 25px 0 0 25px;
+}
+
+.yc-form label:last-of-type {
+  border-radius: 0 25px 25px 0;
+}
+
+/* pricing table */
+
+.table {
+  display  : flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  margin         : 20px;
+  padding        : 10px;
+  position       : relative;
+  height         : 250px;
+  width          : 250px;
+  text-align     : center;
+  transition     : transform 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transform-style: preserve-3d;
+}
+
+.column-1 .column-front,
+.column-1 .column-back {
+  background-color: aquamarine;
+}
+
+.column-2 .column-front,
+.column-2 .column-back {
+  background-color: lightgreen;
+}
+
+.column-3 .column-front,
+.column-3 .column-back {
+  background-color: orange;
+}
+
+.column-front,
+.column-back {
+  position           : absolute;
+  border             : 1px solid grey;
+  width              : 250px;
+  height             : 250px;
+  backface-visibility: hidden;
+  display            : flex;
+  flex-direction     : column;
+  align-items        : center;
+  justify-content    : center;
+}
+
+.flip {
+  transform: rotateY(180deg);
+}
+
+.column-back {
+  transform: rotateY(180deg);
+}
