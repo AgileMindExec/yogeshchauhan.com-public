@@ -1,0 +1,29 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font-size: 1.5rem;
+  padding  : 0.5rem 1rem;
+}
+
+.clock {
+  display    : flex;
+  align-items: center;
+  font-size  : 4rem;
+  border     : 5px solid rgb(124, 124, 123);
+  width      : max-content;
+  padding    : 0.5rem 1rem;
+  color      : rgb(82, 80, 80);
+}
+
+#hour::after,
+#min::after {
+  content: ": ";
+}
+
+#hour,
+#min,
+#sec {
+  padding-right: 1rem;
+}
