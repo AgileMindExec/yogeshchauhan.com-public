@@ -1,1 +1,1 @@
-This fiddle is a part of a <a href="https://yogeshchauhan.com/how-to-create-bouncing-balls-using-html-canvas-and-javascript/" target="_blank" style="color:white;">Blog Post on YogeshChauhan.com</a>
+This project is a part of a Blog Post on YogeshChauhan.com : <a href="https://yogeshchauhan.com/how-to-create-bouncing-balls-using-html-canvas-and-javascript/" target="_blank">How to create bouncing balls using HTML canvas and JavaScript?</a>
