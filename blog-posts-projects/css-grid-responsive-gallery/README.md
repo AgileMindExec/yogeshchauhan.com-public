@@ -1,0 +1,1 @@
+This fiddle is a part of a <a href="https://yogeshchauhan.com/learn-to-make-a-responsive-gallery-using-css-grid-and-without-media-queries/" target="_blank" style="color:white;">Blog Post on YogeshChauhan.com</a>

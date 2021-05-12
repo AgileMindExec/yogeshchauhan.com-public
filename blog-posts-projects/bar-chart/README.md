@@ -1,0 +1,1 @@
+This fiddle is a part of a <a href="https://www.yogeshchauhan.com/create-a-simple-bar-chart-and-column-chart-using-pure-css-grid/" target="_blank" style="color:white;">Blog Post on YogeshChauhan.com</a>
