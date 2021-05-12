@@ -1,1 +1,1 @@
-This fiddle is a part of a <a href="https://www.yogeshchauhan.com/how-to-create-a-flip-pricing-table-using-css-and-javascript/" target="_blank" style="color:white;">Blog Post on YogeshChauhan.com</a>
+This project is a part of a Blog Post on YogeshChauhan.com : <a href="https://www.yogeshchauhan.com/how-to-create-a-flip-pricing-table-using-css-and-javascript/" target="_blank">How to create a flip pricing table using CSS and JavaScript?</a>
