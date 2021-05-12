@@ -1,1 +1,1 @@
-This fiddle is a part of a <a href="https://www.yogeshchauhan.com/how-to-display-and-animate-image-on-scroll-using-javascript/" target="_blank" style="color:white;">Blog Post on YogeshChauhan.com</a>
+This project is a part of a Blog Post on YogeshChauhan.com : <a href="https://www.yogeshchauhan.com/how-to-display-and-animate-image-on-scroll-using-javascript/" target="_blank">How to display and animate image on scroll using JavaScript?</a>
