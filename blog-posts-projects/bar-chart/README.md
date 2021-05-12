@@ -1,1 +1,1 @@
-This project is a part of a Blog Post on YogeshChauhan.com : <a href="https://www.yogeshchauhan.com/how-to-create-a-bootstrap-style-accordion-using-css-and-javascript/" target="_blank">Create a simple bar chart and column chart using pure CSS grid</a>
+This project is a part of a Blog Post on YogeshChauhan.com : <a href="https://yogeshchauhan.com/create-a-simple-bar-chart-and-column-chart-using-pure-css-grid/" target="_blank">Create a simple bar chart and column chart using pure CSS grid</a>
