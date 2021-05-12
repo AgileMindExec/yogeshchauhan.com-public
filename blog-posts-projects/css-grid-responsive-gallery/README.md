@@ -1,1 +1,1 @@
-This fiddle is a part of a <a href="https://yogeshchauhan.com/learn-to-make-a-responsive-gallery-using-css-grid-and-without-media-queries/" target="_blank" style="color:white;">Blog Post on YogeshChauhan.com</a>
+This project is a part of a Blog Post on YogeshChauhan.com : <a href="https://yogeshchauhan.com/learn-to-make-a-responsive-gallery-using-css-grid-and-without-media-queries/" target="_blank">Learn to make a responsive gallery using CSS Grid and without media queries</a>
