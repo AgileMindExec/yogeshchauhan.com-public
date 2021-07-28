@@ -1,0 +1,33 @@
+.grid-container {
+  columns   : 4 10rem;
+  column-gap: 1rem;
+  width     : 90%;
+  padding   : 0 5%;
+}
+
+.grid-container .img-container {
+  margin-bottom: 1rem;
+}
+
+.grid-container .img-container img {
+  width        : 100%;
+  border-radius: 1rem;
+}
+
+body {
+  margin     : 0 auto;
+  text-align : center;
+  box-sizing : border-box;
+  font-family: "Arial";
+  background : #444;
+  min-height : 200px;
+  color      : ghostwhite;
+}
+
+.blog {
+  color: white;
+}
+
+.blog a {
+  color: white;
+}

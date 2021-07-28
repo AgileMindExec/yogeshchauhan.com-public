@@ -1,0 +1,1 @@
+This project is a part of a Blog Post on YogeshChauhan.com : <a href="https://yogeshchauhan.com/responsive-masonry-grid-using-css-columns-property" target="_blank">Responsive Masonry Grid by Yogesh Chauhan</a>
