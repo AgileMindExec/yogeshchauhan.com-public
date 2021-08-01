@@ -1,0 +1,1 @@
+This project is a part of a Blog Post on YogeshChauhan.com : <a href="https://yogeshchauhan.com/slider-animation-using-css-transform-property/" target="_blank">Slider animation using CSS transform property</a>
