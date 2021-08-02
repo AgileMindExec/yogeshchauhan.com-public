@@ -1,0 +1,1 @@
+This project is a part of a Blog Post on YogeshChauhan.com : <a href="https://yogeshchauhan.com/how-to-add-before-after-image-effect-using-pure-css/" target="_blank">How to add before after image effect using pure CSS?</a>
